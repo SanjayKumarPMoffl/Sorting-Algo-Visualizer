@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+}
+
+#myCanvas {
+    border: 1px solid #333;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 100%; /* Ensure canvas is responsive */
+    height: auto; /* Automatically adjust canvas height */
+}
+
+h1 {
+    color: #333;
+}
+
+#clicks {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Define styles for smaller screens */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  #clicks {
+    margin-top: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+/* Define styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  #container {
+    padding: 10px;
+  }
+
+  button {
+    padding: 6px 12px;
+  }
+}
